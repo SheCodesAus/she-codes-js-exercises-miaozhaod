@@ -1,5 +1,3 @@
-console.log("Hello, world!");
-
 // function showName() {
 //   let inputField = document.getElementById("name-text");
 //   console.log("inputField", inputField.value);
@@ -15,11 +13,18 @@ console.log("Hello, world!");
 // pets.push("Bella");
 // console.log("Found pets", pets);
 
-let pets = ["Chilli", "Rex", "Roary", "Fleur", "Bella"];
-for (let index = 0; index < pets.length; index++) {
-  console.log("Found index", pets[index]);
-}
+// let pets = ["Chilli", "Rex", "Roary", "Fleur", "Bella"];
+// for (let index = 0; index < pets.length; index++) {
+//   console.log("Found index", pets[index]);
+// }
 
+let pets = ["Chilli", "Rex", "Roary", "Fleur", "Bella"];
 pets.forEach(pet => {
-  console.log(pet);
+  if (pet == "Bella") {
+    console.log("OMG", pet);
+  } else if (pet === "Chilli") {
+    console.log("cool", pet);
+  } else {
+    console.log("ok", pet);
+  }
 });
