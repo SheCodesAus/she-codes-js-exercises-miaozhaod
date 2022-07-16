@@ -1,3 +1,5 @@
+let todoTasksText = ["Walck Chilli", "Feed Bella"];
+console.log(todoTasksText);
 function addTask() {}
 
 function updateTodoList() {}
